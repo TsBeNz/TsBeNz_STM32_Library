@@ -11,12 +11,12 @@
 // include stm32h7 driver
 #include "stm32h7xx.h"
 
-#define MAX_LED 2
+#define NUM_LED 2
 
 
 typedef struct {
-	uint32_t pwmData[(MAX_LED*24)+42];
-	uint8_t LED_Data[MAX_LED][3];
+	uint32_t pwmData[(NUM_LED*24)+42];
+	uint8_t LED_Data[NUM_LED][3];
 	TIM_HandleTypeDef *htim;
 }NeopixelParameter;
 
