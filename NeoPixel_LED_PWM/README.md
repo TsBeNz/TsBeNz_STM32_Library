@@ -6,9 +6,11 @@ Neo Pixel LED for STM32 HAL Library using Timer on PWM mode with DMA (Memory to 
 
 ### First Step
 Setup .ioc in your STM32IDE Project.
-* Enable timer in PWM mode\
-![ioc_setup_1](https://user-images.githubusercontent.com/42747938/147074852-d3ecea4f-cfba-48b7-8472-3cf0e0f3b0d4.png)
-![alt text](https://github.com/[username]/[reponame]//tree/main/NeoPixel_LED_PWM/Image/ioc_setup_1.png?raw=true)
+* Enable timer with PWM mode\
+![image](https://github.com/TsBeNz/TsBeNz_STM32_Library/blob/main/NeoPixel_LED_PWM/Image/ioc_setup_1.png?raw=True)
+![image](https://github.com/TsBeNz/TsBeNz_STM32_Library/blob/main/NeoPixel_LED_PWM/Image/ioc_setup_2.png?raw=True)
+* Enable DMA in PWM channal
+![image](https://github.com/TsBeNz/TsBeNz_STM32_Library/blob/main/NeoPixel_LED_PWM/Image/DMA_setup.png?raw=True)
 
 ### Second Step
 Define/add variable and function for this library in main.c\
