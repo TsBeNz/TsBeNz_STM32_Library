@@ -34,3 +34,10 @@ Try to use this library
 ```bash
 Neopixel_Init(&<PARAMETER_NAME>, &<htimx>,<TIM_CHANNEL_X>);
 ```
+<!-- * สามารถตั้งค่าสีของไฟเเต่ละดวงได้โดยใช้ฟังก์ชั่นนี้ -->
+* Set LED color function.
+```bash
+Neopixel_Set(&<PARAMETER_NAME>, <Number_of_LED>, <Red_value>, <Green_value>, <Blue_value>);
+```
+
+*
